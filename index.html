@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- js -->
+    <script src="js/app.js" defer></script>
+    <link rel="shortcut icon" href="assets/favicon.webp" type="image/x-icon">
+</head>
+<body>
+    
+    <main>
+        <h1>Todo List</h1>
+        <form id="search">
+            <input type="text" name="search"
+            placeholder="Search todos">
+        </form>
+        <ul id="todo-list">
+            <li>
+                <span>be done with javascript course before school start</span>
+                <i class="fa-regular fa-trash-can"></i>
+            </li>
+            <li>
+                <span>Train chest</span>
+                <i class="fa-regular fa-trash-can"></i>
+            </li>
+            <li>
+                <span>read a book</span>
+                <i class="fa-regular fa-trash-can"></i>
+            </li>
+        </ul>
+        <form id="newtodo">
+            <label for="newtodo">Add a new todo...</label>
+            <input type="text" name="newtodo">
+        </form>
+    </main>
+
+</body>
+</html>
